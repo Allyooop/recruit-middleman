@@ -15,9 +15,9 @@
           </div>
           
           <ul class="nav navbar-nav navbar-right hidden-xs">
-            <a href="../"><img class="navbar-logo" src="http://allyooop.github.io/mimp/images/logo-white.png"
-              alt="logo for the Sheffield Teaching Hospital NHS Foundation Trust">
-            </a>
+            <% link_to "/index.html" do %>
+                <%= image_tag "logo-white.png", class: "navbar-logo", alt: "logo for the Sheffield Teaching Hospital NHS Foundation Trust" %>
+            <% end %>
           </ul>
           
         </div>
