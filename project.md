@@ -1,4 +1,6 @@
-# This is just some notes for the recruitment website
+# Project Parameteres
+
+This project will be 
 
 ## Persona driven
 
@@ -6,4 +8,4 @@ The target audience must be defined for each major profile section. This will be
 
 ## Events
 
-Each major event will have a custom HTML landing page created for it with social media 
+Each major event will have a custom HTML landing page created for it with social media tags appropriate for campaigns
