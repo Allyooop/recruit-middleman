@@ -17,6 +17,8 @@
             <a class="navbar-brand hidden-xs" href="#">
               <% if content_for?(:navbar_title) %>
                 <%= yield_content :navbar_title %>
+                <% else %>
+                Work for us
               <% end %>
             </a>
           </div>
