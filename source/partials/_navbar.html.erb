@@ -12,7 +12,13 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand navbar-brand-small visible-xs" href="#">Sheffield Teaching Hospitals</a>
-            <a class="navbar-brand hidden-xs" href="#">Home</a>
+
+
+            <a class="navbar-brand hidden-xs" href="#">
+              <% if content_for?(:navbar_title) %>
+              <%= yield_content :navbar_title %>
+              <% end %>
+            </a>
           </div>
 
           <ul class="nav navbar-nav navbar-right hidden-xs">
